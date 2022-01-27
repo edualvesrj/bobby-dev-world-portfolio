@@ -2,7 +2,7 @@
 
 ### [Live Site](https://bobbydevsworld.com)
 
-![Portfolio Website](link)
+![image](https://user-images.githubusercontent.com/2580315/151451688-cff9dbd7-fb79-4a76-a495-ff15f35fe58c.png)
 
 This is a code repository for corresponding to my portfolio with information like my resume, projects and other stuff that I studied.
 

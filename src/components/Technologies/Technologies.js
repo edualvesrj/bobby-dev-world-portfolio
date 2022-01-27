@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiAngularSimple, DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -15,12 +15,13 @@ const Technologies = () =>  (
       <ListItem>
         <picture>
           <DiReact size="3rem" />
+          <DiAngularSimple size="3rem"/>
         </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js
+            React.js, Angular, AngularJs
           </ListParagraph>
         </ListContainer>
       </ListItem>

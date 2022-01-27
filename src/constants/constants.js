@@ -1,39 +1,21 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'My Portfolio',
+    description: "Using React, Next & Node.js I built and deployed this portfolio to show my skills as a Full Stack Developer. This code is open to those who want to use it as a template. The link to GitHub repository is below.",
+    image: '/images/MyPortfolioProject.png',
+    tags: ['React', 'NextJs', 'Node'],
+    source: 'https://github.com/edualvesrj/bobby-dev-world-portfolio',
+    visit: 'https://bobbydevsworld.com',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
+    title: 'FIXRaptor',
+    description:"A server of type acceptor to simulate sending messages in FIX Protocol. I created this app to help with internal tests that require messaging. Building on .NET 6, and using the QuickFix/n open source library.",
+    image: '/images/FIXRaptorProject.png',
+    tags: ['.NET 6', 'C#', 'QuickFix\/n'],
+    source: 'https://github.com/edualvesrj/fixraptor',
     visit: 'https://google.com',
     id: 1,
-  },
-  {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
   },
 ];
 
@@ -54,6 +36,16 @@ export const certificates = [
   {
     title: 'DEPC',
     item: '/images/CertiProf-DEPC-1621263764150.png',
+    link: 'www.google.com'
+  },
+  {
+    title: 'KIKF',
+    item: '/images/CertiProf-KIKF-1620648789215-1.png',
+    link: 'www.google.com'
+  },
+  {
+    title: 'SFPC',
+    item: '/images/CertiProf-SFPC-1620589917054-1.png',
     link: 'www.google.com'
   }
 ];

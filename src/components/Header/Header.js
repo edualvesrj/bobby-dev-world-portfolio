@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCode, DiCodeBadge, DiJavascript, DiNodejs, DiReact } from 'react-icons/di';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { DiCode } from 'react-icons/di';
+import { SocialIconsContainer } from '../Footer/FooterStyles';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
@@ -35,13 +36,15 @@ const Header = () =>  (
         </Link>
       </li>        
     </Div2>
-      <Div3>
+    <Div3>
+      <SocialIconsContainer>
         <SocialIcons href="https://github.com/edualvesrj">
           <AiFillGithub size="3rem" />
         </SocialIcons>
         <SocialIcons href="https://www.linkedin.com/in/edualvesrj/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
+      </SocialIconsContainer>
       </Div3>
     </Container>
 );

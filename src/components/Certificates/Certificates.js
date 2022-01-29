@@ -10,7 +10,7 @@ function Certificates() {
   return (
     <Section nopadding id="certificates">
       <SectionDivider />
-      <SectionTitle main>My Certificates</SectionTitle>
+      <SectionTitle main>Certificates</SectionTitle>
       {/* <GridContainer> */}
         <Carousel autoPlay={true} showThumbs={true} stopOnHover={true} dynamicHeight={true} centerMode={true}
           centerSlidePercentage={80} showArrows={true} transitionTime={500} interval={2000} 

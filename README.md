@@ -1,6 +1,6 @@
 ## Bobby Dev's World Portfolio
 
-### [Live Site](https://bobbydevsworld.com)
+### [Live Site](http://edualvesrj.ca.s3-website.ca-central-1.amazonaws.com/)
 
 ![image](https://user-images.githubusercontent.com/2580315/151451688-cff9dbd7-fb79-4a76-a495-ff15f35fe58c.png)
 
